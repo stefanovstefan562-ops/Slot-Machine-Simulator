@@ -127,7 +127,7 @@ namespace SlotMachineSimulator
 
                     db.Players.Add(player);
                     db.SaveChanges();
-}
+                }
 
             bool play = true;
 
