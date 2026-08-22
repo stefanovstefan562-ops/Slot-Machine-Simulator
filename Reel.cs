@@ -2,8 +2,8 @@ namespace SlotMachineSimulator
 {
     public class Reel
     {
-        public int Id { get; set; }
-        public required List<Symbol> Symbols { get; set; }
+        public int Id {get; set;}
+        public required List<Symbol> Symbols {get; set;}
         public Symbol Spin()
         {
             Random random = new Random();
